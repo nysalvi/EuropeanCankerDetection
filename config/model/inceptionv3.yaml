@@ -1,0 +1,5 @@
+name: INCEPTIONV3
+classifier: fc
+image_size: 299
+_target_: torchvision.models.inception_v3
+weights: torchvision.models.Inception_V3_Weights.DEFAULT

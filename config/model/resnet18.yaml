@@ -1,0 +1,6 @@
+name: RESNET
+classifier: fc
+image_size: 224
+_target_: torchvision.models.resnet18
+weights: torchvision.models.ResNet18_Weights.DEFAULT
+    

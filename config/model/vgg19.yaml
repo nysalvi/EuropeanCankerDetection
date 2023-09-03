@@ -1,0 +1,5 @@
+name: VGG19
+classifier: classifier[6]
+image_size: 224
+_target_: torchvision.models.vgg19_bn
+weights: torchvision.models.VGG19_BN_Weights.DEFAULT

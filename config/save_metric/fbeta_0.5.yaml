@@ -1,0 +1,2 @@
+_target_: sklearn.metrics.fbeta_score
+beta: 0.5

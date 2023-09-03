@@ -1,0 +1,4 @@
+_target_: torch.nn.Linear
+in_features: null
+out_features: 1
+bias: true

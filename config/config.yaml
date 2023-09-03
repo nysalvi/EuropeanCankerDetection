@@ -1,0 +1,29 @@
+defaults:
+    - _self_
+    - model: ???      
+    - optimizer: sgd
+    - criterion: bcewithlogitsloss
+    - data_augment: imagenet
+    - lr_scheduler: cosineannealing    
+model:
+    name: ???    
+    classifier: ???
+    image_size: ???
+    weights: null
+    
+batch_size: 8
+experiment_name: ???
+path: D:\output\results\${experiment_name}
+
+save:
+    metric: ???
+    loss: criterion
+training:    
+    total_epochs: 40    
+    total_tol: 15    
+optimizer:
+    lr: ??? 
+    weight_decay: ???
+
+device: cuda
+restart: 0

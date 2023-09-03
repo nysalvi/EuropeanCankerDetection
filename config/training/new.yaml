@@ -1,0 +1,7 @@
+total_epoch: 40
+
+cur_epoch: 0 
+
+total_tol: 15
+
+cur_tol: 0
