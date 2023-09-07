@@ -14,7 +14,7 @@ class TestNetwork(unittest.TestCase):
         num_features = resnet18.fc.in_features 
         resnet18.fc = torch.nn.Linear(num_features, 1) 
 
-        test_model = Network.GET_MODEL(PRE_TRAINED.RESNET, torch.nn.Linear(num_features, 1))
+        test_model = Network.GET_MODEL(PRE_TRAINED.RESNET)
         for x, y in zip(resnet18.parameters(), test_model.parameters()):
             self.assertEqual(x.data.all(), y.data.all())
 

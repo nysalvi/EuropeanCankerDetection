@@ -1,10 +1,9 @@
+from __future__ import annotations
 from sklearn.metrics import roc_curve, auc, fbeta_score
 from sklearn.metrics import f1_score, fbeta_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import recall_score
-from __future__ import annotations
-
 import pandas as pd
 import numpy as np
 import torch
